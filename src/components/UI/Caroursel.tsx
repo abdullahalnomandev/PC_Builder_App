@@ -1,30 +1,28 @@
 import React from "react";
 import { Carousel } from "antd";
-import firstBanner from '@/assets/images/CUSTOM-PC-BANNER.jpg'
-import secondBanner from '@/assets/images/Second.jpeg'
+import banner from "@/assets/images/tomi.jpg";
 import Image from "next/image";
 
 const CarouselPage: React.FC = () => (
   <Carousel autoplay>
     <div>
       <Image
-        src={firstBanner}
-        height={400}
-        width={500}
+        src={banner}
+        height={200}
+        width={`${500}`}
         alt=""
         layout="responsive"
       />
     </div>
     <div>
       <Image
-        src={secondBanner}
+        src={banner}
         height={400}
         width={500}
         alt=""
         layout="responsive"
       />
     </div>
-
   </Carousel>
 );
 

@@ -1,0 +1,1106 @@
+[
+  {
+    "image": "cpu_image_1.jpg",
+    "productName": "Intel Core i9-10900K",
+    "category": "cpu",
+    "status":"in-stock",
+    "price": "$499.99",
+    "description": "Powerful 10-core, 20-thread processor for high-performance computing.",
+    "KeyFeatures": {
+      "brand": "Intel",
+      "model": "Core i9-10900K",
+      "specification": "10 cores, 20 threads, 3.7GHz base clock, 5.3GHz max turbo boost"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Amazing performance, runs everything smoothly!"
+      },
+      {
+        "individualRating": 4,
+        "review": "Great CPU, a bit pricey though."
+      }
+    ]
+  },
+  {
+    "image": "cpu_image_1.jpg",
+    "productName": "Intel Core i9-10900K",
+    "category": "cpu",
+    "status":"in-stock",
+    "price": "$499.99",
+    "description": "Powerful 10-core, 20-thread processor for high-performance computing.",
+    "KeyFeatures": {
+      "brand": "Intel",
+      "model": "Core i9-10900K",
+      "specification": "10 cores, 20 threads, 3.7GHz base clock, 5.3GHz max turbo boost"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Amazing performance, runs everything smoothly!"
+      },
+      {
+        "individualRating": 4,
+        "review": "Great CPU, a bit pricey though."
+      }
+    ]
+  },
+  {
+    "image": "cpu_image_2.jpg",
+    "productName": "AMD Ryzen 7 5800X",
+    "category": "cpu",
+    "status":"in-stock",
+    "price": "$399.99",
+    "description": "8-core, 16-thread processor optimized for gaming and multitasking.",
+    "KeyFeatures": {
+      "brand": "AMD",
+      "model": "Ryzen 7 5800X",
+      "specification": "8 cores, 16 threads, 3.8GHz base clock, 4.7GHz max boost"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Incredible value for the performance it offers."
+      },
+      {
+        "individualRating": 5,
+        "review": "Runs cool and handles everything I throw at it."
+      }
+    ]
+  },
+  {
+    "image": "cpu_image_3.jpg",
+    "productName": "AMD Ryzen 9 5950X",
+    "category": "cpu",
+    "status": "out-of-stock",
+    "price": "$799.99",
+    "description": "High-end 16-core, 32-thread processor for enthusiasts and content creators.",
+    "KeyFeatures": {
+      "brand": "AMD",
+      "model": "Ryzen 9 5950X",
+      "specification": "16 cores, 32 threads, 3.4GHz base clock, 4.9GHz max boost"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "individualRating": 4,
+        "review": "An absolute beast of a CPU, but the price is steep."
+      },
+      {
+        "individualRating": 5,
+        "review": "Handles heavy workloads with ease."
+      }
+    ]
+  },
+  {
+    "image": "cpu_image_4.jpg",
+    "productName": "Intel Core i7-11700K",
+    "category": "cpu",
+    "status":"in-stock",
+    "price": "$449.99",
+    "description": "High-performance 8-core, 16-thread processor with excellent gaming capabilities.",
+    "KeyFeatures": {
+      "brand": "Intel",
+      "model": "Core i7-11700K",
+      "specification": "8 cores, 16 threads, 3.6GHz base clock, 5.0GHz max turbo boost"
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "individualRating": 4,
+        "review": "Great CPU, but the power consumption is a bit high."
+      },
+      {
+        "individualRating": 5,
+        "review": "Impressive gaming performance and multitasking."
+      }
+    ]
+  },
+  {
+    "image": "cpu_image_5.jpg",
+    "productName": "AMD Ryzen 5 5600X",
+    "category": "cpu",
+    "status":"in-stock",
+    "price": "$299.99",
+    "description": "6-core, 12-thread processor designed for smooth gaming and productivity.",
+    "KeyFeatures": {
+      "brand": "AMD",
+      "model": "Ryzen 5 5600X",
+      "specification": "6 cores, 12 threads, 3.7GHz base clock, 4.6GHz max boost"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Excellent mid-range CPU, performs like a champ."
+      },
+      {
+        "individualRating": 4,
+        "review": "Good value for the price, but could use more cores for certain tasks."
+      }
+    ]
+  },
+  {
+    "image": "motherboard_image_1.jpg",
+    "productName": "ASUS ROG Strix Z590-E Gaming",
+    "category": "motherboard",
+    "status":"in-stock",
+    "price": "$299.99",
+    "description": "High-end gaming motherboard with robust features and performance.",
+    "keyFeatures": {
+      "brand": "ASUS",
+      "model": "ROG Strix Z590-E Gaming",
+      "specification": "Intel Z590, LGA 1200, ATX, DDR4, PCIe 4.0"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Top-notch motherboard, excellent for overclocking."
+      },
+      {
+        "individualRating": 5,
+        "review": "Great aesthetics and build quality."
+      }
+    ]
+  },
+  {
+    "image": "motherboard_image_2.jpg",
+    "productName": "MSI MPG B550 Gaming Edge WiFi",
+    "category": "motherboard",
+    "status":"in-stock",
+    "price": "$179.99",
+    "description": "Feature-packed motherboard with WiFi connectivity and gaming enhancements.",
+    "keyFeatures": {
+      "brand": "MSI",
+      "model": "MPG B550 Gaming Edge WiFi",
+      "specification": "AMD B550, AM4, ATX, DDR4, PCIe 4.0"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "individualRating": 4,
+        "review": "Solid mid-range motherboard, WiFi is a great addition."
+      },
+      {
+        "individualRating": 5,
+        "review": "Easy setup and great performance for gaming."
+      }
+    ]
+  },
+  {
+    "image": "motherboard_image_3.jpg",
+    "productName": "GIGABYTE X570 Aorus Master",
+    "category": "motherboard",
+    "status":"in-stock",
+    "price": "$349.99",
+    "description": "High-performance motherboard with premium features and cooling.",
+    "keyFeatures": {
+      "brand": "GIGABYTE",
+      "model": "X570 Aorus Master",
+      "specification": "AMD X570, AM4, ATX, DDR4, PCIe 4.0"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Fantastic motherboard, great VRM cooling."
+      },
+      {
+        "individualRating": 4,
+        "review": "Expensive but worth it for the features."
+      }
+    ]
+  },
+  {
+    "image": "motherboard_image_4.jpg",
+    "productName": "ASRock B450M Steel Legend",
+    "category": "motherboard",
+    "status":"in-stock",
+    "price": "$119.99",
+    "description": "Budget-friendly motherboard with solid performance and aesthetics.",
+    "keyFeatures": {
+      "brand": "ASRock",
+      "model": "B450M Steel Legend",
+      "specification": "AMD B450, AM4, Micro ATX, DDR4"
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "individualRating": 4,
+        "review": "Great value for the price, decent build quality."
+      },
+      {
+        "individualRating": 5,
+        "review": "Compact and reliable motherboard."
+      }
+    ]
+  },
+  {
+    "image": "motherboard_image_5.jpg",
+    "productName": "MSI MAG X570 Tomahawk WiFi",
+    "category": "motherboard",
+    "status":"in-stock",
+    "price": "$279.99",
+    "description": "High-performance motherboard with WiFi and robust power delivery.",
+    "keyFeatures": {
+      "brand": "MSI",
+      "model": "MAG X570 Tomahawk WiFi",
+      "specification": "AMD X570, AM4, ATX, DDR4, PCIe 4.0"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Solid motherboard for gaming and productivity tasks."
+      },
+      {
+        "individualRating": 4,
+        "review": "WiFi works well, overall a reliable choice."
+      }
+    ]
+  },
+
+  {
+    "image": "motherboard_image_1.jpg",
+    "productName": "ASUS ROG Strix Z590-E Gaming",
+    "category": "motherboard",
+    "status":"in-stock",
+    "price": "$299.99",
+    "description": "High-end gaming motherboard with robust features and performance.",
+    "keyFeatures": {
+      "brand": "ASUS",
+      "model": "ROG Strix Z590-E Gaming",
+      "specification": "Intel Z590, LGA 1200, ATX, DDR4, PCIe 4.0"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Top-notch motherboard, excellent for overclocking."
+      },
+      {
+        "individualRating": 5,
+        "review": "Great aesthetics and build quality."
+      }
+    ]
+  },
+  {
+    "image": "ram_image_1.jpg",
+    "productName": "Corsair Vengeance RGB Pro 32GB",
+    "category": "ram",
+    "status":"in-stock",
+    "price": "$199.99",
+    "description": "High-performance RGB DDR4 RAM for gaming and content creation.",
+    "keyFeatures": {
+      "brand": "Corsair",
+      "model": "Vengeance RGB Pro",
+      "specification": "32GB (2 x 16GB), DDR4-3200, CL16, RGB lighting"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "individualRating": 4,
+        "review": "Stylish RAM with good performance, a bit expensive."
+      },
+      {
+        "individualRating": 5,
+        "review": "Easy to set up and looks great in my build."
+      }
+    ]
+  },
+  {
+    "image": "ram_image_1.jpg",
+    "productName": "Corsair Vengeance RGB Pro 32GB",
+    "category": "ram",
+    "status":"in-stock",
+    "price": "$199.99",
+    "description": "High-performance RGB DDR4 RAM for gaming and content creation.",
+    "keyFeatures": {
+      "brand": "Corsair",
+      "model": "Vengeance RGB Pro",
+      "specification": "32GB (2 x 16GB), DDR4-3200, CL16, RGB lighting"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "individualRating": 4,
+        "review": "Stylish RAM with good performance, a bit expensive."
+      },
+      {
+        "individualRating": 5,
+        "review": "Easy to set up and looks great in my build."
+      }
+    ]
+  },
+  {
+    "image": "ram_image_2.jpg",
+    "productName": "G.SKILL Ripjaws V 16GB",
+    "category": "ram",
+    "status":"in-stock",
+    "price": "$99.99",
+    "description": "High-quality DDR4 RAM for smooth multitasking and gaming.",
+    "keyFeatures": {
+      "brand": "G.SKILL",
+      "model": "Ripjaws V",
+      "specification": "16GB (2 x 8GB), DDR4-3200, CL14"
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "individualRating": 4,
+        "review": "Reliable RAM for the price, performs well."
+      },
+      {
+        "individualRating": 5,
+        "review": "Great value and compatible with most systems."
+      }
+    ]
+  },
+  {
+    "image": "ram_image_3.jpg",
+    "productName": "HyperX Predator RGB 64GB",
+    "category": "ram",
+    "status":"in-stock",
+    "price": "$349.99",
+    "description": "High-capacity RGB DDR4 RAM for heavy workloads and gaming.",
+    "keyFeatures": {
+      "brand": "HyperX",
+      "model": "Predator RGB",
+      "specification": "64GB (4 x 16GB), DDR4-3600, CL18, RGB lighting"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Impressive RAM, handles demanding tasks well."
+      },
+      {
+        "individualRating": 4,
+        "review": "High capacity, a bit pricey but worth it."
+      }
+    ]
+  },
+  {
+    "image": "ram_image_4.jpg",
+    "productName": "Crucial Ballistix 32GB",
+    "category": "ram",
+    "status":"in-stock",
+    "price": "$159.99",
+    "description": "Fast DDR4 RAM for gaming and performance-oriented tasks.",
+    "keyFeatures": {
+      "brand": "Crucial",
+      "model": "Ballistix",
+      "specification": "32GB (2 x 16GB), DDR4-3600, CL16"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Smooth performance and reliable brand."
+      },
+      {
+        "individualRating": 4,
+        "review": "Good RAM for gaming, wish it had RGB."
+      }
+    ]
+  },
+  {
+    "image": "ram_image_5.jpg",
+    "productName": "Team T-Force Delta RGB 16GB",
+    "category": "ram",
+    "status":"in-stock",
+    "price": "$129.99",
+    "description": "Stylish RGB DDR4 RAM for a visually appealing build.",
+    "keyFeatures": {
+      "brand": "Team",
+      "model": "T-Force Delta RGB",
+      "specification": "16GB (2 x 8GB), DDR4-3000, CL16, RGB lighting"
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "individualRating": 4,
+        "review": "Good RAM with nice RGB effects."
+      },
+      {
+        "individualRating": 5,
+        "review": "Great aesthetics and decent performance."
+      }
+    ]
+  },
+
+  {
+    "image": "psu_image_1.jpg",
+    "productName": "EVGA Supernova 850W 80+ Gold",
+    "category": "power-supply",
+    "status":"in-stock",
+    "price": "$129.99",
+    "description": "High-efficiency modular power supply for gaming and enthusiast systems.",
+    "keyFeatures": {
+      "brand": "EVGA",
+      "model": "Supernova 850W",
+      "specification": "850W, 80+ Gold, Fully Modular, 135mm Fan"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Reliable PSU, keeps my system powered without issues."
+      },
+      {
+        "individualRating": 4,
+        "review": "Good build quality, cables are easy to manage."
+      }
+    ]
+  },
+  {
+    "image": "psu_image_1.jpg",
+    "productName": "EVGA Supernova 850W 80+ Gold",
+    "category": "power-supply",
+    "status":"in-stock",
+    "price": "$129.99",
+    "description": "High-efficiency modular power supply for gaming and enthusiast systems.",
+    "keyFeatures": {
+      "brand": "EVGA",
+      "model": "Supernova 850W",
+      "specification": "850W, 80+ Gold, Fully Modular, 135mm Fan"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Reliable PSU, keeps my system powered without issues."
+      },
+      {
+        "individualRating": 4,
+        "review": "Good build quality, cables are easy to manage."
+      }
+    ]
+  },
+  {
+    "image": "psu_image_2.jpg",
+    "productName": "Corsair RM750x 80+ Gold",
+    "category": "power-supply",
+    "status":"in-stock",
+    "price": "$139.99",
+    "description": "Quiet and reliable modular power supply with high efficiency.",
+    "keyFeatures": {
+      "brand": "Corsair",
+      "model": "RM750x",
+      "specification": "750W, 80+ Gold, Fully Modular, Zero RPM Fan Mode"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Stable power delivery and virtually silent operation."
+      },
+      {
+        "individualRating": 4,
+        "review": "Great PSU, cables are well-designed."
+      }
+    ]
+  },
+  {
+    "image": "psu_image_3.jpg",
+    "productName": "Seasonic Focus GX-650 80+ Gold",
+    "category": "power-supply",
+    "status":"in-stock",
+    "price": "$109.99",
+    "description": "Compact and efficient power supply with high-quality components.",
+    "keyFeatures": {
+      "brand": "Seasonic",
+      "model": "Focus GX-650",
+      "specification": "650W, 80+ Gold, Fully Modular, Hybrid Silent Fan Control"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Excellent PSU, runs cool and quiet."
+      },
+      {
+        "individualRating": 5,
+        "review": "Impressive build quality and performance."
+      }
+    ]
+  },
+  {
+    "image": "psu_image_4.jpg",
+    "productName": "NZXT C850 80+ Gold",
+    "category": "power-supply",
+    "status":"in-stock",
+    "price": "$149.99",
+    "description": "Sleek modular power supply with optimized airflow and reliability.",
+    "keyFeatures": {
+      "brand": "NZXT",
+      "model": "C850",
+      "specification": "850W, 80+ Gold, Fully Modular, CAM-powered monitoring"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "individualRating": 4,
+        "review": "Good PSU, looks great in my NZXT build."
+      },
+      {
+        "individualRating": 5,
+        "review": "Easy to manage cables and efficient power delivery."
+      }
+    ]
+  },
+  {
+    "image": "psu_image_5.jpg",
+    "productName": "Thermaltake Toughpower GF1 750W 80+ Gold",
+    "category": "power-supply",
+    "status":"in-stock",
+    "price": "$129.99",
+    "description": "High-performance modular power supply with reliable components.",
+    "keyFeatures": {
+      "brand": "Thermaltake",
+      "model": "Toughpower GF1 750W",
+      "specification": "750W, 80+ Gold, Fully Modular, Hydraulic Bearing Fan"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Solid PSU, keeps my system stable under load."
+      },
+      {
+        "individualRating": 4,
+        "review": "Quality power supply for the price."
+      }
+    ]
+  },
+  {
+    "image": "storage_image_1.jpg",
+    "productName": "Samsung 970 EVO Plus 1TB NVMe SSD",
+    "category": "storage-device",
+    "status":"in-stock",
+    "price": "$179.99",
+    "description": "High-speed NVMe SSD for rapid data storage and retrieval.",
+    "keyFeatures": {
+      "brand": "Samsung",
+      "model": "970 EVO Plus",
+      "specification": "1TB, NVMe PCIe M.2, Read up to 3500MB/s, Write up to 3300MB/s"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Blazing fast SSD, noticeable improvement in loading times."
+      },
+      {
+        "individualRating": 5,
+        "review": "High-quality storage solution, a bit pricey but worth it."
+      }
+    ]
+  },
+  {
+    "image": "storage_image_1.jpg",
+    "productName": "Samsung 970 EVO Plus 1TB NVMe SSD",
+    "category": "storage-device",
+    "status":"in-stock",
+    "price": "$179.99",
+    "description": "High-speed NVMe SSD for rapid data storage and retrieval.",
+    "keyFeatures": {
+      "brand": "Samsung",
+      "model": "970 EVO Plus",
+      "specification": "1TB, NVMe PCIe M.2, Read up to 3500MB/s, Write up to 3300MB/s"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Blazing fast SSD, noticeable improvement in loading times."
+      },
+      {
+        "individualRating": 5,
+        "review": "High-quality storage solution, a bit pricey but worth it."
+      }
+    ]
+  },
+  {
+    "image": "storage_image_2.jpg",
+    "productName": "Crucial MX500 2TB SATA SSD",
+    "category": "storage-device",
+    "status":"in-stock",
+    "price": "$249.99",
+    "description": "High-capacity SATA SSD for reliable storage and fast performance.",
+    "keyFeatures": {
+      "brand": "Crucial",
+      "model": "MX500",
+      "specification": "2TB, SATA III, 2.5-inch form factor, Read up to 560MB/s, Write up to 510MB/s"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "individualRating": 4,
+        "review": "Solid SATA SSD, good value for the storage capacity."
+      },
+      {
+        "individualRating": 5,
+        "review": "Reliable and performs well for everyday use."
+      }
+    ]
+  },
+  {
+    "image": "storage_image_3.jpg",
+    "productName": "WD Blue SN550 500GB NVMe SSD",
+    "category": "storage-device",
+    "status":"in-stock",
+    "price": "$89.99",
+    "description": "Affordable NVMe SSD for faster data access and multitasking.",
+    "keyFeatures": {
+      "brand": "WD",
+      "model": "Blue SN550",
+      "specification": "500GB, NVMe PCIe M.2, Read up to 2400MB/s, Write up to 1750MB/s"
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "individualRating": 4,
+        "review": "Great budget NVMe SSD, noticeable speed improvement."
+      },
+      {
+        "individualRating": 5,
+        "review": "Perfect for speeding up my older system."
+      }
+    ]
+  },
+  {
+    "image": "storage_image_4.jpg",
+    "productName": "Seagate Barracuda 4TB HDD",
+    "category": "storage-device",
+    "status":"in-stock",
+    "price": "$109.99",
+    "description": "High-capacity HDD for storing large amounts of data.",
+    "keyFeatures": {
+      "brand": "Seagate",
+      "model": "Barracuda",
+      "specification": "4TB, SATA III, 3.5-inch form factor, 7200 RPM"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Massive storage capacity, reliable performance."
+      },
+      {
+        "individualRating": 4,
+        "review": "Affordable and great for backups."
+      }
+    ]
+  },
+  {
+    "image": "storage_image_5.jpg",
+    "productName": "ADATA SU800 256GB SATA SSD",
+    "category": "storage-device",
+    "status":"in-stock",
+    "price": "$54.99",
+    "description": "Entry-level SATA SSD for basic storage needs.",
+    "keyFeatures": {
+      "brand": "ADATA",
+      "model": "SU800",
+      "specification": "256GB, SATA III, 2.5-inch form factor, Read up to 560MB/s, Write up to 520MB/s"
+    },
+    "individualRating": 4.5,
+    "averageRating": 4.4,
+    "reviews": [
+      {
+        "individualRating": 4,
+        "review": "Good SSD for the price, improved my old laptop's speed."
+      },
+      {
+        "individualRating": 5,
+        "review": "Affordable and reliable storage solution."
+      }
+    ]
+  },
+
+  {
+    "image": "monitor_image_1.jpg",
+    "productName": "Dell S2719DGF 27\" QHD Gaming Monitor",
+    "category": "monitor",
+    "status":"in-stock",
+    "price": "$349.99",
+    "description": "High-refresh-rate gaming monitor with QHD resolution.",
+    "keyFeatures": {
+      "brand": "Dell",
+      "model": "S2719DGF",
+      "specification": "27\", QHD (2560x1440), 144Hz refresh rate, FreeSync"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "individualRating": 4,
+        "review": "Great monitor for gaming, colors could be more accurate."
+      },
+      {
+        "individualRating": 5,
+        "review": "Smooth gameplay and adjustable stand, very satisfied."
+      }
+    ]
+  },
+  {
+    "image": "monitor_image_1.jpg",
+    "productName": "Dell S2719DGF 27\" QHD Gaming Monitor",
+    "category": "monitor",
+    "status":"in-stock",
+    "price": "$349.99",
+    "description": "High-refresh-rate gaming monitor with QHD resolution.",
+    "keyFeatures": {
+      "brand": "Dell",
+      "model": "S2719DGF",
+      "specification": "27\", QHD (2560x1440), 144Hz refresh rate, FreeSync"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "individualRating": 4,
+        "review": "Great monitor for gaming, colors could be more accurate."
+      },
+      {
+        "individualRating": 5,
+        "review": "Smooth gameplay and adjustable stand, very satisfied."
+      }
+    ]
+  },
+  {
+    "image": "monitor_image_2.jpg",
+    "productName": "LG 34GN850-B 34\" Ultrawide QHD Monitor",
+    "category": "monitor",
+    "status":"in-stock",
+    "price": "$799.99",
+    "description": "Immersive ultrawide gaming monitor with high resolution and fast refresh rate.",
+    "keyFeatures": {
+      "brand": "LG",
+      "model": "34GN850-B",
+      "specification": "34\", Ultrawide QHD (3440x1440), 144Hz refresh rate, G-Sync Compatible"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Stunning ultrawide display, excellent for gaming and multitasking."
+      },
+      {
+        "individualRating": 4,
+        "review": "Premium monitor with fantastic color accuracy."
+      }
+    ]
+  },
+  {
+    "image": "monitor_image_3.jpg",
+    "productName": "Acer Predator X27 27\" 4K Gaming Monitor",
+    "category": "monitor",
+    "status":"in-stock",
+    "price": "$1499.99",
+    "description": "High-end 4K gaming monitor with HDR and G-Sync Ultimate.",
+    "keyFeatures": {
+      "brand": "Acer",
+      "model": "Predator X27",
+      "specification": "27\", 4K (3840x2160), 144Hz refresh rate, G-Sync Ultimate, HDR"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Absolutely phenomenal 4K gaming experience."
+      },
+      {
+        "individualRating": 5,
+        "review": "Expensive but worth every penny for the quality."
+      }
+    ]
+  },
+  {
+    "image": "monitor_image_4.jpg",
+    "productName": "ASUS TUF Gaming VG27AQ 27\" QHD Monitor",
+    "category": "monitor",
+    "status":"in-stock",
+    "price": "$399.99",
+    "description": "Fast QHD gaming monitor with adaptive sync technology.",
+    "keyFeatures": {
+      "brand": "ASUS",
+      "model": "TUF Gaming VG27AQ",
+      "specification": "27\", QHD (2560x1440), 165Hz refresh rate, G-Sync Compatible"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "individualRating": 4,
+        "review": "Solid gaming monitor, smooth performance."
+      },
+      {
+        "individualRating": 5,
+        "review": "Impressed by the color accuracy and high refresh rate."
+      }
+    ]
+  },
+  {
+    "image": "monitor_image_5.jpg",
+    "productName": "ViewSonic XG2402 24\" Full HD Gaming Monitor",
+    "category": "monitor",
+    "status":"in-stock",
+    "price": "$249.99",
+    "description": "Affordable gaming monitor with fast response time.",
+    "keyFeatures": {
+      "brand": "ViewSonic",
+      "model": "XG2402",
+      "specification": "24\", Full HD (1920x1080), 144Hz refresh rate, FreeSync"
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "individualRating": 4,
+        "review": "Good budget monitor, performs well in fast-paced games."
+      },
+      {
+        "individualRating": 5,
+        "review": "Excellent value for a 144Hz gaming monitor."
+      }
+    ]
+  },
+
+  {
+    "image": "accessory_image_1.jpg",
+    "productName": "Logitech G Pro X Mechanical Gaming Keyboard",
+    "category": "Others",
+    "status":"in-stock",
+    "price": "$129.99",
+    "description": "Compact mechanical gaming keyboard with customizable switches.",
+    "keyFeatures": {
+      "brand": "Logitech",
+      "model": "G Pro X",
+      "specification": "Tenkeyless design, customizable mechanical switches, RGB lighting"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Excellent keyboard for gaming and typing, love the customizable switches."
+      },
+      {
+        "individualRating": 4,
+        "review": "Compact and portable, great for LAN parties."
+      }
+    ]
+  },
+  {
+    "image": "accessory_image_1.jpg",
+    "productName": "Logitech G Pro X Mechanical Gaming Keyboard",
+    "category": "accessory",
+    "status":"in-stock",
+    "price": "$129.99",
+    "description": "Compact mechanical gaming keyboard with customizable switches.",
+    "keyFeatures": {
+      "brand": "Logitech",
+      "model": "G Pro X",
+      "specification": "Tenkeyless design, customizable mechanical switches, RGB lighting"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Excellent keyboard for gaming and typing, love the customizable switches."
+      },
+      {
+        "individualRating": 4,
+        "review": "Compact and portable, great for LAN parties."
+      }
+    ]
+  },
+  {
+    "image": "accessory_image_2.jpg",
+    "productName": "Razer DeathAdder V2 Gaming Mouse",
+    "category": "accessory",
+    "status":"in-stock",
+    "price": "$69.99",
+    "description": "High-precision gaming mouse with ergonomic design.",
+    "keyFeatures": {
+      "brand": "Razer",
+      "model": "DeathAdder V2",
+      "specification": "16,000 DPI optical sensor, Razer Optical Mouse Switches, Speedflex cable"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Perfect shape and sensitivity, great for gaming."
+      },
+      {
+        "individualRating": 4,
+        "review": "Comfortable grip and responsive buttons."
+      }
+    ]
+  },
+  {
+    "image": "accessory_image_3.jpg",
+    "productName": "Corsair Dark Core RGB/SE Wireless Gaming Mouse",
+    "category": "accessory",
+    "status":"in-stock",
+    "price": "$89.99",
+    "description": "Wireless gaming mouse with customizable lighting and versatile grip options.",
+    "keyFeatures": {
+      "brand": "Corsair",
+      "model": "Dark Core RGB/SE",
+      "specification": "18,000 DPI optical sensor, customizable side grips, Qi wireless charging"
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "individualRating": 4,
+        "review": "Impressive wireless performance, comfortable to use."
+      },
+      {
+        "individualRating": 5,
+        "review": "Love the customizable grips and wireless charging."
+      }
+    ]
+  },
+  {
+    "image": "accessory_image_4.jpg",
+    "productName": "HyperX Cloud Alpha S Gaming Headset",
+    "category": "accessory",
+    "status":"in-stock",
+    "price": "$129.99",
+    "description": "High-quality gaming headset with surround sound and adjustable bass.",
+    "keyFeatures": {
+      "brand": "HyperX",
+      "model": "Cloud Alpha S",
+      "specification": "50mm dual-chamber drivers, adjustable bass sliders, virtual 7.1 surround sound"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Fantastic audio quality, comfortable for long gaming sessions."
+      },
+      {
+        "individualRating": 4,
+        "review": "Adjustable bass adds a new dimension to gaming and music."
+      }
+    ]
+  },
+  {
+    "image": "accessory_image_5.jpg",
+    "productName": "Elgato Stream Deck Mini",
+    "category": "accessory",
+    "status":"in-stock",
+    "price": "$99.99",
+    "description": "Compact control panel for content creators and streamers.",
+    "keyFeatures": {
+      "brand": "Elgato",
+      "model": "Stream Deck Mini",
+      "specification": "6 customizable LCD keys, direct integration with streaming software"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Game-changer for streamers, simplifies actions and transitions."
+      },
+      {
+        "individualRating": 4,
+        "review": "Easy setup and a great addition to my streaming setup."
+      }
+    ]
+  },
+  {
+    "image": "accessory_image_6.jpg",
+    "productName": "SteelSeries Arctis 7 Wireless Gaming Headset",
+    "category": "accessory",
+    "status":"in-stock",
+    "price": "$149.99",
+    "description": "Wireless gaming headset with lag-free audio and comfortable design.",
+    "keyFeatures": {
+      "brand": "SteelSeries",
+      "model": "Arctis 7",
+      "specification": "S1 speaker drivers, DTS Headphone:X v2.0, ClearCast bidirectional microphone"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "individualRating": 5,
+        "review": "Impressive wireless range and sound quality, comfortable fit."
+      },
+      {
+        "individualRating": 4,
+        "review": "Good value for a wireless gaming headset."
+      }
+    ]
+  },
+  {
+    "image": "accessory_image_7.jpg",
+    "productName": "NZXT H510i Compact ATX Mid-Tower Case",
+    "category": "accessory",
+    "status":"in-stock",
+    "price": "$109.99",
+    "description": "Sleek and compact case with smart RGB lighting and cable management.",
+    "keyFeatures": {
+      "brand": "NZXT",
+      "model": "H510i",
+      "specification": "ATX mid-tower, smart device for lighting and fan control, tempered glass side panel"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "individualRating": 4,
+        "review": "Clean and stylish case, smart device is a neat addition."
+      },
+      {
+        "individualRating": 5,
+        "review": "Easy to build in and the cable management is excellent."
+      }
+    ]
+  }
+]

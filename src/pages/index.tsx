@@ -1,48 +1,40 @@
 import RootLayout from '@/components/Layouts/RootLayout';
 import CarouselPage from '@/components/UI/Caroursel';
-import { Button } from 'antd';
-import Image from 'next/image';
 import React from 'react';
-import one from "../assets/images/service-new-banner-350x120.webp";
-import two from "../assets/images/brand-pc-offer-350x120.webp";
-import three from "../assets/images/service-new-banner-350x120.webp";
-import four from "../assets/images/smart-tv-350x120.webp";
+import FeatureCard from '@/components/UI/FeatureCard';
+import cpuData from "@/db.json";
+import { Row } from 'antd';
+import ProductCard from '@/components/UI/ProductCard';
+const cpuDataInfo = cpuData?.filter((cpu) => cpu.category === "cpu");
 
-
-const image =[
-  {id:1,url:one},
-  {id:2,url:two},
-  {id:3,url:three},
-  {id:4,url:four},
-]
 const HomePage = () => {
   return (
-    <div>
+    <>
       <CarouselPage />
-      <div className='flex justify-center items-center gap-2'>
-        {image.map(({ url, id }) => (
-          <>
-            <Image
-            key={id}
-              src={url}
-              height={400}
-              width={500}
-              alt=""
-              layout="responsive"
-            />
-          </>
-        ))}
-      </div>
 
-      <h1 className='text-3xl'>Hi There</h1>
-    </div>
+      <div className="mx-6 mb-8 ">
+        <div className="hidden md:block "></div>
+        <div className="product mt-8">
+          <Row gutter={[16, 16]}>
+            {cpuDataInfo.map((cpu, index) => (
+              <>
+                <ProductCard product={cpu} key={index + 1} />
+              </>
+            ))}
+          </Row>
+        </div>
+        <div className="feature mt-12">
+          <h4 className="py-2 text-lg  text-blue-950">Categories </h4>
+          <FeatureCard />
+        </div>
+      </div>
+    </>
   );
 };
 
 export default HomePage;
 
 HomePage.getLayout = function (page:React.ReactNode) {
-
   return (
     <>
       <RootLayout>{page}</RootLayout>
