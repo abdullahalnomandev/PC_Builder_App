@@ -2,7 +2,7 @@
 ## How to run the the project?
 
 
-First, run the development server:
+First, install node_modules :
 
 ```bash
 
