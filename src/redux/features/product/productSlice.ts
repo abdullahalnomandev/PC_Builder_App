@@ -4,6 +4,7 @@ import storageDevice from "@/assets/images/device.jpg";
 
 interface IList {
   totalPrice: number;
+  length: number;
   features: {
     title: string;
     price: number;
@@ -16,6 +17,7 @@ interface IList {
 
 const initialState: IList = {
   totalPrice: 0,
+  length: 0,
   features: [
     {
       title: "Processor",
@@ -56,7 +58,6 @@ const initialState: IList = {
     {
       title: "Storage Device",
       price: 0,
-
       name: "",
       image: String(storageDevice),
       category: "storage-device",
@@ -82,7 +83,7 @@ const productSlice = createSlice({
       const { name, image, price } = payload;
       const getProduct = state.features.find(({ category }) => category === payload.category );
       state.features = state.features.filter(({ category }) => category !== getProduct?.category);
-      state.features.push({
+      state.features.unshift({
         title: getProduct?.title!,
         name,
         price,
@@ -91,6 +92,7 @@ const productSlice = createSlice({
         image
       });
       state.totalPrice += Number(price.split("$")[1]);
+      state.length += 1;
     }
   }
 });

@@ -7,6 +7,7 @@ import { Rate } from "antd";
 
 const productDetailsPage = ({ product }: any) => {
 
+
   return (
     <div className="bg-gray-100 min-h-screen py-8">
       <div className="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-md">
@@ -90,24 +91,39 @@ productDetailsPage.getLayout = function (page: React.ReactNode) {
 
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`https://backend-pc-builder.vercel.app/products?category=cpu`
-  );
-  const products = await res.json();
-  const paths = products?.map((product: IProduct) => ({
-    params: { productId: product._id }
-  }));
+  const categories = ["cpu", "monitor","motherboard","ram","power-supply","storage-device","others"];
+  const paths:any = [];
+
+  for (const category of categories) {
+    const res = await fetch(`https://backend-pc-builder.vercel.app/products?category=${category}`);
+    const products = await res.json();
+
+    products.forEach((product: IProduct) => {
+      paths.push({
+        params: { category: category, productId: product._id }
+      });
+    });
+  }
+
   return { paths, fallback: false };
 };
 
-
 export const getStaticProps = async (context: any) => {
-  
   const { params } = context;
-  const res = await fetch(`https://backend-pc-builder.vercel.app/product/${params.productId}`);
+  const { category, productId } = params;
+
+  const res = await fetch(`https://backend-pc-builder.vercel.app/product/${productId}`);
   const data = await res.json();
+
   return {
     props: {
       product: data as IProduct
     }
   };
 };
+
+
+
+
+
+

@@ -19,7 +19,7 @@ const FeatureCard = () => {
             sm={{ span: 12 }}
             xl={{ span: 6 }}
           >
-            <Link href={route}>
+            <Link href={route }>
               <div className="card transition flex justify-between items-center p-4 hover:shadow-xl bg-white rounded-lg shadow-md">
                 <img className=" h-16 w-28 object-contain" src={image} alt="" />
                 <p className="text-sm font-semibold mt-2">{name}</p>

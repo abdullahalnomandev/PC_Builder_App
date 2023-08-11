@@ -31,6 +31,10 @@ const ProductCard = ({ product }: IProps) => {
     // Navigate to the '/pc-builder' route
     router.push("/pc-builder");
   };
+
+  const handleImageClick = ()=>{
+
+  }
   return (
     <Col
       xs={{ span: 24 }}
@@ -42,7 +46,9 @@ const ProductCard = ({ product }: IProps) => {
       <Card
         className="shadow-md"
         hoverable
-        cover={
+  
+      >
+        <Link href={`/product-details/${product?._id}`}>
           <Image
             src={
               product?.image.startsWith("https")
@@ -54,17 +60,15 @@ const ProductCard = ({ product }: IProps) => {
             alt=""
             layout="responsive"
           />
-        }
-      >
-        <Link href={`/product-details/${product?._id}`}>
           <Meta
             title={product.productName}
             description={`Category : ${product?.category.toUpperCase()}`}
           />
+
           <ul className="text-gray-400 pl-4 pt-2">
-            <li>{product?.KeyFeatures?.brand}</li>
-            <li>{product?.KeyFeatures?.model}</li>
-            <li>{product?.KeyFeatures?.specification}</li>
+            <li>{product?.keyFeatures?.brand}</li>
+            <li>{product?.keyFeatures?.model}</li>
+            <li>{product?.keyFeatures?.specification}</li>
           </ul>
           <h4
             className={`${

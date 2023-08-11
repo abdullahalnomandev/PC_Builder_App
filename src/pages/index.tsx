@@ -11,6 +11,16 @@ interface HomePageProps {
 }
 const HomePage = ({products}:HomePageProps) => {
    
+  const uniqueCategory = new Set();
+  const filterProducts = products.filter(({category})=>{
+      if(!uniqueCategory.has(category)){
+          uniqueCategory.add(category)
+          return true
+      }
+      return false;
+  })
+
+  
   return (
     <>
       <CarouselPage />
@@ -19,9 +29,9 @@ const HomePage = ({products}:HomePageProps) => {
         <div className="hidden md:block "></div>
         <div className="product mt-8">
           <Row gutter={[16, 16]}>
-            {products?.map((cpu, index:number) => (
+            {filterProducts?.map((cpu, index: number) => (
               <>
-                <ProductCard product={cpu} key={index}/>
+                <ProductCard product={cpu} key={index} />
               </>
             ))}
           </Row>
@@ -47,13 +57,31 @@ HomePage.getLayout = function (page:React.ReactNode) {
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(
-    "https://backend-pc-builder.vercel.app/products?category=cpu"
-  );
-  const data = await res.json();
+  
+  const categories = [
+    "cpu",
+    "monitor",
+    "motherboard",
+    "ram",
+    "power-supply",
+    "storage-device",
+    "others"
+  ];
+  let allProduct = [] as IProduct []
+    for (const category of categories) {
+      const res = await fetch(
+        `https://backend-pc-builder.vercel.app/products?category=${category}`
+      );
+      const products = await res.json();
+
+      products.forEach((product: IProduct) => {
+        allProduct.push(product as IProduct);
+      });
+    }
+
   return {
     props: {
-      products: data as IProduct[]
+      products: allProduct as IProduct[]
     }
   };
 };

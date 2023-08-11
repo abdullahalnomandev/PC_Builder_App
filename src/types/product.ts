@@ -17,7 +17,7 @@ export interface IProduct {
   status: string;
   price: string;
   description: string;
-  KeyFeatures: KeyFeatures;
+  keyFeatures: KeyFeatures;
   individualRating: number;
   averageRating: number;
   reviews: IReview[];

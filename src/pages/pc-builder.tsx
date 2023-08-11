@@ -50,23 +50,38 @@ export const features = [
     route: "monitor",
   }
 ];
+import toast, { Toaster } from 'react-hot-toast';
+import { useRouter } from 'next/router';
 
 const PcBuilder = () => {
 
-
+  const router = useRouter()
    const  pcBuilderList = useAppSelector((state) => state.product)   
+   const count = pcBuilderList?.features?.filter(({ price }) =>price !== 0 );
+
+   const handleSuccess = () =>{
+    toast.success("Successfully build!");
+    setTimeout(() => {
+      router.push('/')
+    }, 2000);
+
+   }
+    
     return (
       <div className="md:mx-24 sm:max-w-full mb-6 ">
-        <Divider orientation="left">PC Builder </Divider>
+        <Divider orientation="left">PC Builder {count.length} </Divider>
+        <Toaster />
         <Card bodyStyle={{ padding: "12px" }}>
           <div className="flex justify-between items-center">
             <p className="text-blue-900 text-lg font-bold">
               PC Builder - Build your own PC
             </p>
-            <Button type="link">Total: {pcBuilderList?.totalPrice}</Button>
+            <Button type="link">
+              Total:$ {pcBuilderList?.totalPrice.toFixed()}
+            </Button>
           </div>
           {pcBuilderList?.features.map(
-            ({ title, route, price, name,image }, index) => (
+            ({ title, route, price, name, image }, index) => (
               <div key={index}>
                 <Card
                   hoverable
@@ -76,12 +91,12 @@ const PcBuilder = () => {
                   <div className="flex justify-between items-center">
                     <div className="product-content flex justify-center items-center gap-4">
                       <img
-                      src={image}
-                      height={50}
-                      width={50}
-                      alt=""
-                      // layout="responsive"
-                    />
+                        src={image}
+                        height={50}
+                        width={50}
+                        alt=""
+                        // layout="responsive"
+                      />
                       <div className="description">
                         <h4>{title}</h4>
                         {name !== "" ? (
@@ -99,7 +114,7 @@ const PcBuilder = () => {
 
                     <div className="choose-content flex justify-center items-center gap-6">
                       <h3> {price}</h3>
-                      <DeleteOutlined className="text-red-600 text-lg cursor-pointer" />
+                      {/* <DeleteOutlined className="text-red-600 text-lg cursor-pointer" /> */}
                       <Link href={route}>
                         <Button type="default">Choose</Button>
                       </Link>
@@ -109,7 +124,12 @@ const PcBuilder = () => {
               </div>
             )
           )}
-          <Button className="float-right my-4" type="primary" disabled={false}>
+          <Button
+            className="float-right my-4"
+            type="primary"
+            disabled={count?.length == 6 ? false : true}
+            onClick={() => handleSuccess()}
+          >
             Complete Build{" "}
           </Button>
         </Card>

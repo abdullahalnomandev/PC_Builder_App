@@ -30,7 +30,13 @@ const MonitorPage = ({ products }: IProps) => {
 
 export default MonitorPage;
 
-
+MonitorPage.getLayout = function (page: React.ReactNode) {
+  return (
+    <>
+      <RootLayout>{page}</RootLayout>
+    </>
+  );
+};
 export const getStaticProps = async () => {
   const res = await fetch(
     "https://backend-pc-builder.vercel.app/products?category=monitor"

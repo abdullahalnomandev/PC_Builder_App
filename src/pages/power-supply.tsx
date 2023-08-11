@@ -32,7 +32,13 @@ const PowerSupply = ({ products }: IProps) => {
 
 export default PowerSupply;
 
-
+PowerSupply.getLayout = function (page: React.ReactNode) {
+  return (
+    <>
+      <RootLayout>{page}</RootLayout>
+    </>
+  );
+};
 
 export const getStaticProps = async () => {
   const res = await fetch(

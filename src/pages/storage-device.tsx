@@ -12,7 +12,7 @@ interface IProps {
 const StorageDevice = ({ products }: IProps) => {
   return (
     <>
-      <div className="mx-6 mb-8 ">
+      <div className="mx-6 mb-8 " >
         <div className="hidden md:block "></div>
         <div className="product mt-8">
           <Row gutter={[16, 16]}>
