@@ -1,19 +1,16 @@
-import RootLayout from '@/components/Layouts/RootLayout';
-import { useRouter } from 'next/router';
-import React from 'react';
-import  {IProduct, IReview} from '@/types/product';
-import computer from "@/assets/images/computer.jpeg";
-import Image from 'next/image';
-import { Rate } from 'antd';
+import RootLayout from "@/components/Layouts/RootLayout";
+import { useRouter } from "next/router";
+import React from "react";
+import { IProduct, IReview } from "@/types/product";
+import Image from "next/image";
+import { Rate } from "antd";
 
-const productDetailsPage = ({ products }: any) => {
+const productDetailsPage = ({ product }: any) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const router = useRouter();
-  let id = (router.query.productId ) as string;
+  let id = router.query.productId as string;
 
-  const product = products?.find((cpu:IProduct) => cpu?._id === id);
 
-  console.log("cpuDataInfo", product);
   return (
     <div className="bg-gray-100 min-h-screen py-8">
       <div className="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-md">
@@ -72,7 +69,7 @@ const productDetailsPage = ({ products }: any) => {
 
           <div className="mt-4">
             <h3 className="text-md font-semibold">Reviews</h3>
-            {product?.reviews?.map((review:IReview, index:number) => (
+            {product?.reviews?.map((review: IReview, index: number) => (
               <div key={index} className="mt-2">
                 <Rate disabled defaultValue={review.individualRating} />
                 <p>{review.review}</p>
@@ -95,7 +92,6 @@ productDetailsPage.getLayout = function (page: React.ReactNode) {
   );
 };
 
-
 // export const getStaticPaths = async () =>{
 //     const res = await fetch(`http://localhost:5000/news`);
 //     const newses = await  res.json();
@@ -107,24 +103,40 @@ productDetailsPage.getLayout = function (page: React.ReactNode) {
 //       return { paths, fallback: false }
 // }
 
+
 // export const getServerSideProps = async (context) =>{
 //     const {params} =context;
 //     const res = await fetch(`http://localhost:5000/news/${params.newsId}`);
 //     const data = await res.json();
 
-//     return{ 
+//     return{
 //         props:{
 //             news:data
 //         }
 //     }
 // }
 
-export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:3000/api/product?category=cpu");
+export const getStaticPaths = async () => {
+  const res = await fetch(`https://backend-pc-builder.vercel.app/products?category=cpu`
+  );
+  const products = await res.json();
+
+  const paths = products?.map((product: IProduct) => ({
+    params: { productId: product._id }
+  }));
+  return { paths, fallback: false };
+};
+
+
+export const getStaticProps = async (context: any) => {
+  console.log("context",context);
+  
+  const { params } = context;
+  const res = await fetch(`https://backend-pc-builder.vercel.app/product/${params.productId}`);
   const data = await res.json();
   return {
     props: {
-      products: data as IProduct
+      product: data as IProduct
     }
   };
 };

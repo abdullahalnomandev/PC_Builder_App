@@ -46,8 +46,10 @@ HomePage.getLayout = function (page:React.ReactNode) {
 
 }
 
-export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:3000/api/product?category=cpu");
+export const getStaticProps = async () => {
+  const res = await fetch(
+    "https://backend-pc-builder.vercel.app/products?category=cpu"
+  );
   const data = await res.json();
   return {
     props: {
