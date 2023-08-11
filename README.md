@@ -4,7 +4,6 @@
 Live [https://pc-builder-app-ruby.vercel.app](https://pc-builder-app-ruby.vercel.app/) 
 
 ### Technology:
-
 - [x] NEXT.JS
 - [x] ANT DESIGN
 - [x] TYPESCRIPT
