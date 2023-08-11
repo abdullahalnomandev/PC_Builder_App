@@ -1,32 +1,7 @@
 [
   {
     "image": "cpu_image_1.jpg",
-    "productName": "Intel Core i9-10900K",
-    "category": "cpu",
-    "status":"in-stock",
-    "price": "$499.99",
-    "description": "Powerful 10-core, 20-thread processor for high-performance computing.",
-    "KeyFeatures": {
-      "brand": "Intel",
-      "model": "Core i9-10900K",
-      "specification": "10 cores, 20 threads, 3.7GHz base clock, 5.3GHz max turbo boost"
-    },
-    "individualRating": 4.8,
-    "averageRating": 4.7,
-    "reviews": [
-      {
-        "individualRating": 5,
-        "review": "Amazing performance, runs everything smoothly!"
-      },
-      {
-        "individualRating": 4,
-        "review": "Great CPU, a bit pricey though."
-      }
-    ]
-  },
-  {
-    "image": "cpu_image_1.jpg",
-    "productName": "Intel Core i9-10900K",
+    "productName": "Intel Core  i9-10900K",
     "category": "cpu",
     "status":"in-stock",
     "price": "$499.99",
@@ -86,8 +61,8 @@
       "model": "Ryzen 9 5950X",
       "specification": "16 cores, 32 threads, 3.4GHz base clock, 4.9GHz max boost"
     },
-    "individualRating": 4.7,
-    "averageRating": 4.6,
+    "individualRating": 4,
+    "averageRating": 4.4,
     "reviews": [
       {
         "individualRating": 4,
