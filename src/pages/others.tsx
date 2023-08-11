@@ -7,17 +7,17 @@ import { IProduct } from "@/types/product";
 interface IProps {
   products: IProduct[];
 }
-const CpuPage = ({ products }: IProps) => {
+const OthersPage = ({ products }: IProps) => {
   return (
     <div className="mx-4 my-6">
       <h1 className="text-3xl font-semibold mb-4 text-blue-950 font-sans">
         {" "}
-        CPU
+        Others
       </h1>
       <Row gutter={[16, 16]}>
-        {products.map((cpu, index: number) => (
+        {products.map((others, index: number) => (
           <>
-            <ProductCard product={cpu} key={index} />
+            <ProductCard product={others} key={index} />
           </>
         ))}
       </Row>
@@ -25,9 +25,9 @@ const CpuPage = ({ products }: IProps) => {
   );
 };
 
-export default CpuPage;
+export default OthersPage;
 
-CpuPage.getLayout = function (page: React.ReactNode) {
+OthersPage.getLayout = function (page: React.ReactNode) {
   return (
     <>
       <RootLayout>{page}</RootLayout>
@@ -37,7 +37,7 @@ CpuPage.getLayout = function (page: React.ReactNode) {
 
 export const getStaticProps = async () => {
   const res = await fetch(
-    "https://backend-pc-builder.vercel.app/products?category=cpu"
+    "https://backend-pc-builder.vercel.app/products?category=others"
   );
   const data = await res.json();
   return {

@@ -6,10 +6,6 @@ import Image from "next/image";
 import { Rate } from "antd";
 
 const productDetailsPage = ({ product }: any) => {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  const router = useRouter();
-  let id = router.query.productId as string;
-
 
   return (
     <div className="bg-gray-100 min-h-screen py-8">
@@ -92,35 +88,11 @@ productDetailsPage.getLayout = function (page: React.ReactNode) {
   );
 };
 
-// export const getStaticPaths = async () =>{
-//     const res = await fetch(`http://localhost:5000/news`);
-//     const newses = await  res.json();
-
-//       const paths = newses.map((news) => ({
-//         params: { newsId: news.id }
-//       }));
-
-//       return { paths, fallback: false }
-// }
-
-
-// export const getServerSideProps = async (context) =>{
-//     const {params} =context;
-//     const res = await fetch(`http://localhost:5000/news/${params.newsId}`);
-//     const data = await res.json();
-
-//     return{
-//         props:{
-//             news:data
-//         }
-//     }
-// }
 
 export const getStaticPaths = async () => {
   const res = await fetch(`https://backend-pc-builder.vercel.app/products?category=cpu`
   );
   const products = await res.json();
-
   const paths = products?.map((product: IProduct) => ({
     params: { productId: product._id }
   }));
@@ -129,7 +101,6 @@ export const getStaticPaths = async () => {
 
 
 export const getStaticProps = async (context: any) => {
-  console.log("context",context);
   
   const { params } = context;
   const res = await fetch(`https://backend-pc-builder.vercel.app/product/${params.productId}`);
