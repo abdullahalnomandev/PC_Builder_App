@@ -1,7 +1,7 @@
 # PC-BUILDER
-### [PC BUILDER](https://pc-builder-app-five.vercel.app)
+### [PC BUILDER](https://pc-builder-app-ruby.vercel.app/)
 
-Live [https://pc-builder-app-five.vercel.app](https://pc-builder-app-five.vercel.app) 
+Live [https://pc-builder-app-ruby.vercel.app](https://pc-builder-app-ruby.vercel.app/) 
 
 ### Technology:
 
