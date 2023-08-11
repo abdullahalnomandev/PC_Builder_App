@@ -22,7 +22,7 @@ const ProductCard = ({product}:IProps) => {
           hoverable
           cover={
             <Image
-              src={computer}
+              src={ product?.image.startsWith('https') ?product?.image :"https://www.startech.com.bd/image/cache/catalog/processor/AMD/ryzen-3-4100/amd-ryzen-3-4100-01-228x228.jpg"}
               height={400}
               width={500}
               alt=""

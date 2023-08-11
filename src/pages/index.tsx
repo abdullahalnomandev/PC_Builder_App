@@ -2,12 +2,12 @@ import RootLayout from '@/components/Layouts/RootLayout';
 import CarouselPage from '@/components/UI/Caroursel';
 import React from 'react';
 import FeatureCard from '@/components/UI/FeatureCard';
-import cpuData from "@/db.json";
 import { Row } from 'antd';
 import ProductCard from '@/components/UI/ProductCard';
-const cpuDataInfo = cpuData?.filter((cpu) => cpu.category === "cpu");
+import { IProduct } from '@/types/product';
 
-const HomePage = () => {
+const HomePage = ({products}:any) => {
+   
   return (
     <>
       <CarouselPage />
@@ -16,10 +16,10 @@ const HomePage = () => {
         <div className="hidden md:block "></div>
         <div className="product mt-8">
           <Row gutter={[16, 16]}>
-            {cpuDataInfo.map((cpu, index) => (
-              <>
-                <ProductCard product={cpu} key={index + 1} />
-              </>
+            {products?.map((cpu:IProduct, index:number) => (
+              <div key={index}>
+                <ProductCard product={cpu} />
+              </div>
             ))}
           </Row>
         </div>
@@ -42,3 +42,13 @@ HomePage.getLayout = function (page:React.ReactNode) {
   );
 
 }
+
+export const getServerSideProps = async () => {
+  const res = await fetch("http://localhost:3000/api/product?category=cpu");
+  const data = await res.json();
+  return {
+    props: {
+      products: data as IProduct
+    }
+  };
+};

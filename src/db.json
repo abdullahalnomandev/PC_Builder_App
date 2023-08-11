@@ -1,11 +1,11 @@
 [
   {
-    "image": "cpu_image_1.jpg",
+    "image": "https://www.redhat.com/sysadmin/sites/default/files/styles/google_discover/public/2020-07/cpu-564771_1920%20Cropped.jpg?itok=hDSdriO6",
     "productName": "Intel Core  i9-10900K",
     "category": "cpu",
     "status":"in-stock",
     "price": "$499.99",
-    "description": "Powerful 10-core, 20-thread processor for high-performance computing.",
+    "description": "Powerful 10-core, 20-thread processor for high-performance computing.The CPU is the primary processing unit in a computer system. It interprets and executes instructions from the computer's memory.",
     "KeyFeatures": {
       "brand": "Intel",
       "model": "Core i9-10900K",
@@ -25,12 +25,12 @@
     ]
   },
   {
-    "image": "cpu_image_2.jpg",
+    "image": "https://computerinfobits.com/wp-content/uploads/2022/09/A-Rendering-of-a-CPU.jpg",
     "productName": "AMD Ryzen 7 5800X",
     "category": "cpu",
     "status":"in-stock",
     "price": "$399.99",
-    "description": "8-core, 16-thread processor optimized for gaming and multitasking.",
+    "description": "8-core, 16-thread processor optimized for gaming and multitasking.The CPU is the primary processing unit in a computer system. It interprets and executes instructions from the computer's memory.",
     "KeyFeatures": {
       "brand": "AMD",
       "model": "Ryzen 7 5800X",
@@ -50,12 +50,12 @@
     ]
   },
   {
-    "image": "cpu_image_3.jpg",
+    "image": "https://www.computerhope.com/jargon/c/cpu.png",
     "productName": "AMD Ryzen 9 5950X",
     "category": "cpu",
     "status": "out-of-stock",
     "price": "$799.99",
-    "description": "High-end 16-core, 32-thread processor for enthusiasts and content creators.",
+    "description": "High-end 16-core, 32-thread processor for enthusiasts and content creators.The CPU is the primary processing unit in a computer system. It interprets and executes instructions from the computer's memory.",
     "KeyFeatures": {
       "brand": "AMD",
       "model": "Ryzen 9 5950X",
@@ -75,12 +75,12 @@
     ]
   },
   {
-    "image": "cpu_image_4.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxdjoT5Qv-rK36e5ErZKbVlxbCl8ZVyZiSZg&usqp=CAU",
     "productName": "Intel Core i7-11700K",
     "category": "cpu",
     "status":"in-stock",
     "price": "$449.99",
-    "description": "High-performance 8-core, 16-thread processor with excellent gaming capabilities.",
+    "description": "High-performance 8-core, 16-thread processor with excellent gaming capabilities.The CPU is the primary processing unit in a computer system. It interprets and executes instructions from the computer's memory.",
     "KeyFeatures": {
       "brand": "Intel",
       "model": "Core i7-11700K",
@@ -100,12 +100,12 @@
     ]
   },
   {
-    "image": "cpu_image_5.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2pweGACCkdEZKOOr25DbbPPk2mRh9LQ0_fw&usqp=CAU",
     "productName": "AMD Ryzen 5 5600X",
     "category": "cpu",
     "status":"in-stock",
     "price": "$299.99",
-    "description": "6-core, 12-thread processor designed for smooth gaming and productivity.",
+    "description": "6-core, 12-thread processor designed for smooth gaming and productivity.The CPU is the primary processing unit in a computer system. It interprets and executes instructions from the computer's memory.",
     "KeyFeatures": {
       "brand": "AMD",
       "model": "Ryzen 5 5600X",
