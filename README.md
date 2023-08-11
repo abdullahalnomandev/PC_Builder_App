@@ -1,4 +1,7 @@
 
+Live URL [https://pc-builder-app-five.vercel.app](https://pc-builder-app-five.vercel.app) 
+
+
 ## How to run the the project?
 
 
@@ -25,4 +28,3 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Live URL [https://pc-builder-app-five.vercel.app](https://pc-builder-app-five.vercel.app) with your browser to see the result.
