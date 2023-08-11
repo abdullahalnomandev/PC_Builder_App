@@ -1,6 +1,8 @@
 # PC-BUILDER
 ### [PC BUILDER](https://pc-builder-app-five.vercel.app)
 
+Live [https://pc-builder-app-five.vercel.app](https://pc-builder-app-five.vercel.app) 
+
 ### Technology:
 
 - [x] NEXT.JS
