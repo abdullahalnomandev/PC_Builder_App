@@ -1,4 +1,4 @@
-export interface Review {
+export interface IReview {
   individualRating: number;
   review: string;
 }
@@ -10,15 +10,16 @@ interface KeyFeatures {
 }
 
 export interface IProduct {
+  _id: string;
   image: string;
   productName: string;
   category: string;
   status: string;
   price: string;
   description: string;
-  KeyFeatures?: KeyFeatures;
-  individualRating?: number;
+  KeyFeatures: KeyFeatures;
+  individualRating: number;
   averageRating: number;
-  reviews: Review[];
+  reviews: IReview[];
 }
 

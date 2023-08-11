@@ -13,7 +13,7 @@ const items: MenuProps["items"] = [
       <Link
         href="/cpu"
       >
-        CPU / Processor
+        CPU 
       </Link>
     )
   },

@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://www.redhat.com/sysadmin/sites/default/files/styles/google_discover/public/2020-07/cpu-564771_1920%20Cropped.jpg?itok=hDSdriO6",
+    "image": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/antec/a30/a30-01-228x228.webp",
     "productName": "Intel Core  i9-10900K",
     "category": "cpu",
     "status":"in-stock",
@@ -25,7 +25,7 @@
     ]
   },
   {
-    "image": "https://computerinfobits.com/wp-content/uploads/2022/09/A-Rendering-of-a-CPU.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/antec/t120/t120-01-228x228.jpg",
     "productName": "AMD Ryzen 7 5800X",
     "category": "cpu",
     "status":"in-stock",
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "image": "https://www.computerhope.com/jargon/c/cpu.png",
+    "image": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/gamdias/boreas-e1l-010/boreas-e1l-010-01-228x228.webp",
     "productName": "AMD Ryzen 9 5950X",
     "category": "cpu",
     "status": "out-of-stock",
@@ -75,7 +75,7 @@
     ]
   },
   {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxdjoT5Qv-rK36e5ErZKbVlxbCl8ZVyZiSZg&usqp=CAU",
+    "image": "https://www.startech.com.bd/image/cache/catalog/processor/intel/i3-12100f/i3-12100f-228x228.jpg",
     "productName": "Intel Core i7-11700K",
     "category": "cpu",
     "status":"in-stock",
@@ -100,7 +100,7 @@
     ]
   },
   {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2pweGACCkdEZKOOr25DbbPPk2mRh9LQ0_fw&usqp=CAU",
+    "image": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/antec/frigusair-400-argb/frigusair-400-argb-01-228x228.jpg",
     "productName": "AMD Ryzen 5 5600X",
     "category": "cpu",
     "status":"in-stock",
@@ -125,7 +125,7 @@
     ]
   },
   {
-    "image": "motherboard_image_1.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asrock/h81m-vg4-r4-0/h81m-vg4-r4-0-01-228x228.jpg",
     "productName": "ASUS ROG Strix Z590-E Gaming",
     "category": "motherboard",
     "status":"in-stock",
@@ -150,7 +150,7 @@
     ]
   },
   {
-    "image": "motherboard_image_2.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/biostar/a520mh/a520mh-01-228x228.webp",
     "productName": "MSI MPG B550 Gaming Edge WiFi",
     "category": "motherboard",
     "status":"in-stock",
@@ -175,7 +175,7 @@
     ]
   },
   {
-    "image": "motherboard_image_3.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/ga-h81m-h/ga-h81m-h-01-228x228.webp",
     "productName": "GIGABYTE X570 Aorus Master",
     "category": "motherboard",
     "status":"in-stock",
@@ -200,7 +200,7 @@
     ]
   },
   {
-    "image": "motherboard_image_4.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/msi/pro-h410m-b/pro-h410m-b-01-228x228.jpg",
     "productName": "ASRock B450M Steel Legend",
     "category": "motherboard",
     "status":"in-stock",
@@ -225,7 +225,7 @@
     ]
   },
   {
-    "image": "motherboard_image_5.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/msi/pro-h410m-b/pro-h410m-b-01-228x228.jpg",
     "productName": "MSI MAG X570 Tomahawk WiFi",
     "category": "motherboard",
     "status":"in-stock",
@@ -249,9 +249,8 @@
       }
     ]
   },
-
   {
-    "image": "motherboard_image_1.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/msi/pro-h510m-b/pro-h510m-b-01-228x228.webp",
     "productName": "ASUS ROG Strix Z590-E Gaming",
     "category": "motherboard",
     "status":"in-stock",
@@ -276,7 +275,7 @@
     ]
   },
   {
-    "image": "ram_image_1.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/component/laptop-ram/samsung/4gb-ddr3/4gb-ddr3-228x228.jpg",
     "productName": "Corsair Vengeance RGB Pro 32GB",
     "category": "ram",
     "status":"in-stock",
@@ -301,7 +300,7 @@
     ]
   },
   {
-    "image": "ram_image_1.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/component/ram/samsung/8gb-ddr3/8gb-ddr3-228x228.jpg",
     "productName": "Corsair Vengeance RGB Pro 32GB",
     "category": "ram",
     "status":"in-stock",
@@ -326,7 +325,7 @@
     ]
   },
   {
-    "image": "ram_image_2.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/ram/cosair/vengeance-8gb-ddr4-3200mhz/vengeance-8gb-ddr4-3200mhz-01-228x228.webp",
     "productName": "G.SKILL Ripjaws V 16GB",
     "category": "ram",
     "status":"in-stock",
@@ -351,7 +350,7 @@
     ]
   },
   {
-    "image": "ram_image_3.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/ram/transcend/jm-ddr4/jm-ddr4-01-228x228.jpg",
     "productName": "HyperX Predator RGB 64GB",
     "category": "ram",
     "status":"in-stock",
@@ -376,7 +375,7 @@
     ]
   },
   {
-    "image": "ram_image_4.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/ram/team/elite-8g-3200/elite-8g-228x228.jpg",
     "productName": "Crucial Ballistix 32GB",
     "category": "ram",
     "status":"in-stock",
@@ -401,7 +400,7 @@
     ]
   },
   {
-    "image": "ram_image_5.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/ram/transcend/jetram-32gb-ddr4/jetram-32gb-ddr4-01-228x228.webp",
     "productName": "Team T-Force Delta RGB 16GB",
     "category": "ram",
     "status":"in-stock",
@@ -427,7 +426,7 @@
   },
 
   {
-    "image": "psu_image_1.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/gigabyte/p450b/p450b-228x228.jpg",
     "productName": "EVGA Supernova 850W 80+ Gold",
     "category": "power-supply",
     "status":"in-stock",
@@ -452,7 +451,7 @@
     ]
   },
   {
-    "image": "psu_image_1.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/antec/csk-450/csk-450-bronze-01-228x228.jpg",
     "productName": "EVGA Supernova 850W 80+ Gold",
     "category": "power-supply",
     "status":"in-stock",
@@ -477,7 +476,7 @@
     ]
   },
   {
-    "image": "psu_image_2.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/msi/mag-a500dn/mag-a500dn-01-228x228.webp",
     "productName": "Corsair RM750x 80+ Gold",
     "category": "power-supply",
     "status":"in-stock",
@@ -502,7 +501,7 @@
     ]
   },
   {
-    "image": "psu_image_3.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/Antec/neoeco-gold-650w/neoeco-gold-650w-01-228x228.webp",
     "productName": "Seasonic Focus GX-650 80+ Gold",
     "category": "power-supply",
     "status":"in-stock",
@@ -527,7 +526,7 @@
     ]
   },
   {
-    "image": "psu_image_4.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/Antec/neoeco-gold-850w/neoeco-gold-850w-01-228x228.webp",
     "productName": "NZXT C850 80+ Gold",
     "category": "power-supply",
     "status":"in-stock",
@@ -552,7 +551,7 @@
     ]
   },
   {
-    "image": "psu_image_5.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/msi/mpg-a1000g-pcie5/mpg-a1000g-pcie5-01-228x228.webp",
     "productName": "Thermaltake Toughpower GF1 750W 80+ Gold",
     "category": "power-supply",
     "status":"in-stock",
@@ -577,7 +576,7 @@
     ]
   },
   {
-    "image": "storage_image_1.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/storage/asustor/as6602t/as6602t-01-228x228.webp",
     "productName": "Samsung 970 EVO Plus 1TB NVMe SSD",
     "category": "storage-device",
     "status":"in-stock",
@@ -602,7 +601,7 @@
     ]
   },
   {
-    "image": "storage_image_1.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/nas%20storage/as6512rd-lockerstor-12rd/as6512rd-lockerstor-12rd-01-228x228.jpg",
     "productName": "Samsung 970 EVO Plus 1TB NVMe SSD",
     "category": "storage-device",
     "status":"in-stock",
@@ -627,7 +626,7 @@
     ]
   },
   {
-    "image": "storage_image_2.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/storage/asustor/as7112rdx-lockerstor-12r-pro/as7112rdx-lockerstor-12r-pro-228x228.jpg",
     "productName": "Crucial MX500 2TB SATA SSD",
     "category": "storage-device",
     "status":"in-stock",
@@ -652,7 +651,7 @@
     ]
   },
   {
-    "image": "storage_image_3.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/pendrive/transcend/jetflash-700-256gb/jetflash-700-256gb-01-228x228.webp",
     "productName": "WD Blue SN550 500GB NVMe SSD",
     "category": "storage-device",
     "status":"in-stock",
@@ -677,7 +676,7 @@
     ]
   },
   {
-    "image": "storage_image_4.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/pendrive/apacer/ah15a/ah15a-01-228x228.webp",
     "productName": "Seagate Barracuda 4TB HDD",
     "category": "storage-device",
     "status":"in-stock",
@@ -702,7 +701,7 @@
     ]
   },
   {
-    "image": "storage_image_5.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/adapter/baseus/ingenuity-series-mini/ingenuity-series-mini-01-228x228.webp",
     "productName": "ADATA SU800 256GB SATA SSD",
     "category": "storage-device",
     "status":"in-stock",
@@ -728,7 +727,7 @@
   },
 
   {
-    "image": "monitor_image_1.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/monitor/univision/led350/led350-01-228x228.png",
     "productName": "Dell S2719DGF 27\" QHD Gaming Monitor",
     "category": "monitor",
     "status":"in-stock",
@@ -753,7 +752,7 @@
     ]
   },
   {
-    "image": "monitor_image_1.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/monitor/philips/193v/193v-228x228.png",
     "productName": "Dell S2719DGF 27\" QHD Gaming Monitor",
     "category": "monitor",
     "status":"in-stock",
@@ -778,7 +777,7 @@
     ]
   },
   {
-    "image": "monitor_image_2.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/monitor/lenovo/d19-10/d19-10-01-228x228.jpg",
     "productName": "LG 34GN850-B 34\" Ultrawide QHD Monitor",
     "category": "monitor",
     "status":"in-stock",
@@ -803,7 +802,7 @@
     ]
   },
   {
-    "image": "monitor_image_3.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/monitor/acer/ka222q-h/ka222q-h-01-228x228.webp",
     "productName": "Acer Predator X27 27\" 4K Gaming Monitor",
     "category": "monitor",
     "status":"in-stock",
@@ -828,7 +827,7 @@
     ]
   },
   {
-    "image": "monitor_image_4.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/monitor/xiaomi/rmmnt215nf/rmmnt215nf-01-228x228.jpg",
     "productName": "ASUS TUF Gaming VG27AQ 27\" QHD Monitor",
     "category": "monitor",
     "status":"in-stock",
@@ -853,7 +852,7 @@
     ]
   },
   {
-    "image": "monitor_image_5.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/monitor/walton/wd215v05/wd215v05-01-228x228.webp",
     "productName": "ViewSonic XG2402 24\" Full HD Gaming Monitor",
     "category": "monitor",
     "status":"in-stock",
@@ -879,9 +878,9 @@
   },
 
   {
-    "image": "accessory_image_1.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/keychron/resin-palm-rest/resin-palm-rest-01-500x500.webp",
     "productName": "Logitech G Pro X Mechanical Gaming Keyboard",
-    "category": "Others",
+    "category": "others",
     "status":"in-stock",
     "price": "$129.99",
     "description": "Compact mechanical gaming keyboard with customizable switches.",
@@ -904,9 +903,9 @@
     ]
   },
   {
-    "image": "accessory_image_1.jpg",
+    "image": "https://www.startech.com.bd/image/cache/data/K120-228x228.png",
     "productName": "Logitech G Pro X Mechanical Gaming Keyboard",
-    "category": "accessory",
+    "category": "others",
     "status":"in-stock",
     "price": "$129.99",
     "description": "Compact mechanical gaming keyboard with customizable switches.",
@@ -929,9 +928,9 @@
     ]
   },
   {
-    "image": "accessory_image_2.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/Accessories/Mouse/logitech/m90-228x228.png",
     "productName": "Razer DeathAdder V2 Gaming Mouse",
-    "category": "accessory",
+    "category": "others",
     "status":"in-stock",
     "price": "$69.99",
     "description": "High-precision gaming mouse with ergonomic design.",
@@ -954,9 +953,9 @@
     ]
   },
   {
-    "image": "accessory_image_3.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/mouse/aula/f820/f820-01-228x228.webp",
     "productName": "Corsair Dark Core RGB/SE Wireless Gaming Mouse",
-    "category": "accessory",
+    "category": "others",
     "status":"in-stock",
     "price": "$89.99",
     "description": "Wireless gaming mouse with customizable lighting and versatile grip options.",
@@ -979,9 +978,9 @@
     ]
   },
   {
-    "image": "accessory_image_4.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/headphone/havit/h763d/h763d-02-500x500.jpg",
     "productName": "HyperX Cloud Alpha S Gaming Headset",
-    "category": "accessory",
+    "category": "others",
     "status":"in-stock",
     "price": "$129.99",
     "description": "High-quality gaming headset with surround sound and adjustable bass.",
@@ -1004,9 +1003,9 @@
     ]
   },
   {
-    "image": "accessory_image_5.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/stream-deck/corsair/elgato/elgato-228x228.jpg",
     "productName": "Elgato Stream Deck Mini",
-    "category": "accessory",
+    "category": "others",
     "status":"in-stock",
     "price": "$99.99",
     "description": "Compact control panel for content creators and streamers.",
@@ -1029,9 +1028,9 @@
     ]
   },
   {
-    "image": "accessory_image_6.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/headphone/razer/kraken-v3-pro/kraken-v3-pro-01-500x500.webp",
     "productName": "SteelSeries Arctis 7 Wireless Gaming Headset",
-    "category": "accessory",
+    "category": "others",
     "status":"in-stock",
     "price": "$149.99",
     "description": "Wireless gaming headset with lag-free audio and comfortable design.",
@@ -1054,9 +1053,9 @@
     ]
   },
   {
-    "image": "accessory_image_7.jpg",
+    "image": "https://www.startech.com.bd/image/cache/catalog/casing/nzxt/h510-elite/h510-01-500x500.webp",
     "productName": "NZXT H510i Compact ATX Mid-Tower Case",
-    "category": "accessory",
+    "category": "others",
     "status":"in-stock",
     "price": "$109.99",
     "description": "Sleek and compact case with smart RGB lighting and cable management.",

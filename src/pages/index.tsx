@@ -6,7 +6,10 @@ import { Row } from 'antd';
 import ProductCard from '@/components/UI/ProductCard';
 import { IProduct } from '@/types/product';
 
-const HomePage = ({products}:any) => {
+interface HomePageProps {
+  products: IProduct[];
+}
+const HomePage = ({products}:HomePageProps) => {
    
   return (
     <>
@@ -16,7 +19,7 @@ const HomePage = ({products}:any) => {
         <div className="hidden md:block "></div>
         <div className="product mt-8">
           <Row gutter={[16, 16]}>
-            {products?.map((cpu:IProduct, index:number) => (
+            {products?.map((cpu, index:number) => (
               <>
                 <ProductCard product={cpu} key={index}/>
               </>
@@ -48,7 +51,7 @@ export const getServerSideProps = async () => {
   const data = await res.json();
   return {
     props: {
-      products: data as IProduct
+      products: data as IProduct[]
     }
   };
 };

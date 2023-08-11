@@ -24,9 +24,7 @@ export default async function handler(
     const database = client.db("pc-builder");
     console.log("Database connected successfully.");
     const productsCollection = database.collection("products");
-     
-    console.log('requests: ', req);
-    
+         
     // Handle different HTTP methods
     if (req.method === "GET") {
       const products = await productsCollection
