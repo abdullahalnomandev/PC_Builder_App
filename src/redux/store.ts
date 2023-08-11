@@ -1,6 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit'
 import { setupListeners } from '@reduxjs/toolkit/dist/query';
 import productReducer from "./features/product/productSlice";
+
+
  const store = configureStore({
    reducer: {
       product: productReducer,
