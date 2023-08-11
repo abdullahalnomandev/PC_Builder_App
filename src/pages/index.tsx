@@ -17,9 +17,9 @@ const HomePage = ({products}:any) => {
         <div className="product mt-8">
           <Row gutter={[16, 16]}>
             {products?.map((cpu:IProduct, index:number) => (
-              <div key={index}>
-                <ProductCard product={cpu} />
-              </div>
+              <>
+                <ProductCard product={cpu} key={index}/>
+              </>
             ))}
           </Row>
         </div>
