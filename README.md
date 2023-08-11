@@ -1,5 +1,12 @@
+# PC-BUILDER
+### [PC BUILDER](https://pc-builder-app-five.vercel.app)
 
-Live URL [https://pc-builder-app-five.vercel.app](https://pc-builder-app-five.vercel.app) 
+### Technology:
+
+- [x] NEXT.JS
+- [x] ANT DESIGN
+- [x] TYPESCRIPT
+- [x] REDUX TOOLKIT
 
 
 ## How to run the the project?
